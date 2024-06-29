@@ -5,11 +5,11 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Botao 1 label',
+      label: 'Botaolabel',
     },
     {
       action: 'tx',
-      label: 'Botão 1 Label',
+      label: 'BotaoLabel',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
@@ -19,7 +19,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1',
   },
   input: {
-    text: 'Botao 2 text',
+    text: 'Botaotext',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
